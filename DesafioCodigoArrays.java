@@ -11,7 +11,7 @@ class DesafioCodigoArrays {
     .filter(i -> (i % 2 == 0))
     .collect(Collectors.toList());
 
-    System.out.println(mercadoriasJoseUrgentes);
+    mercadoriasJoseUrgentes.forEach(System.out::println);
 
 
 
